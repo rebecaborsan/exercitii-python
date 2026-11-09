@@ -1,23 +1,34 @@
 
-while True:
-    intrebare = input("Hei! Da-mi un numar de la 3 la 10 (sau scrie 'stop'): ")
+# while True:
+#     intrebare = input("Hei! Da-mi un numar de la 3 la 10 (sau scrie 'stop'): ")
 
-    if intrebare.lower() == "stop":
-        print("Paa! 👋")
-        break
+#     if intrebare.lower() == "stop":
+#         print("Paa! 👋")
+#         break
 
-    if not intrebare.isdigit():
-        print("❌ Te rog sa introduci un numar valid!")
-        continue
+#     if not intrebare.isdigit():
+#         print("❌ Te rog sa introduci un numar valid!")
+#         continue
 
-    numar = int(intrebare)
+#     numar = int(intrebare)
 
-    if numar < 3 and numar > 10:
-        print("⚠️ Te rog scrie un numar intre 3 si 10!")
-        continue
+#     if numar < 3 and numar > 10:
+#         print("⚠️ Te rog scrie un numar intre 3 si 10!")
+#         continue
 
-    for i in range(numar, 0, -1):
-        print(i)
+#     for i in range(numar, 0, -1):
+#         print(i)
 
-    print("Start! 🚀\n")
-    
+#     print("Start! 🚀\n")
+
+
+#Exercitiul 3
+scor = int(input("Ce scor ai obtinut? "))
+
+if scor > 5:
+    print("Bravo!")
+
+elif scor >= 4:
+    print("Aproape!")
+else:
+    print("Mai incearca!")   

@@ -22,13 +22,26 @@
 #     print("Start! 🚀\n")
 
 
-#Exercitiul 3
-scor = int(input("Ce scor ai obtinut? "))
+# #Exercitiul 3
+# scor = int(input("Ce scor ai obtinut? "))
 
-if scor > 5:
-    print("Bravo!")
+# if scor > 5:
+#     print("Bravo!")
 
-elif scor >= 4:
-    print("Aproape!")
-else:
-    print("Mai incearca!")   
+# elif scor >= 4:
+#     print("Aproape!")
+# else:
+#     print("Mai incearca!")  
+import turtle
+ecran = turtle.Screen()                                                                                                                                                                                        
+t = turtle.Turtle()                                                                                                                                                                                            
+t.shape("turtle")                                                                                                                                                                                              
+t.color("blue")                                                                                                                                                                                                
+while True:                                                                                                                                                                                                    
+    turtle.clear()                                                                                                                                                                                             
+    for i in range(4):                                                                                                                                                                                         
+        turtle.forward(100)                                                                                                                                                                                    
+        turtle.left(10)                                                                                                                                                                                        
+        break                                                                                                                                                                                                  
+    turtle.left(20)                                                                                                                                                                                                                                                                                                                                                                                        
+turtle.bye()()
